@@ -3,6 +3,8 @@
 h1 {
   font-size: 2rem;
   text-align: center;
+  
+
   @media only screen and (min-width: 940px) {
     font-size: 3rem;
     text-align: left;
@@ -12,6 +14,8 @@ h1 {
 h2 {
   font-size: 1.25rem;
   text-align: center;
+  
+
   @media only screen and (min-width: 940px) {
     font-size: 2rem;
     text-align: left;
@@ -28,12 +32,12 @@ h2 {
 }
 
 a {
-  color: $dark;
+  color: brown;
   transition: color 200ms ease;
 }
 
 a:hover {
-  color: $lightgray;
+  color:#FFB07F;
   transition: color 200ms ease;
 }
 

@@ -3,6 +3,7 @@
 nav {
   transition: all 400ms;
   z-index: 1;
+ 
 }
 
 .dark {
@@ -11,7 +12,9 @@ nav {
 
 
 .light {
-  background-color: $white;
+  background-color: $lightpink;
+  
+ 
 }
 
 .active {
@@ -29,5 +32,10 @@ li {
 }
 
 .link:hover {
-  color: unset;
+  color: #f36315;
+ 
+}
+
+.link {
+  color: #00C9B1;
 }
