@@ -1,6 +1,6 @@
 import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
+// import mock2 from "../img/mock2.png"
 // import mock3 from "../img/mock3.png"
 // import mock4 from "../img/mock4.png"
 // import mock5 from "../img/mock5.png"
@@ -42,7 +42,7 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in Houston, Texas'
         },
         {
             emoji: "💼",
@@ -73,12 +73,15 @@ export const info = {
             link: "https://linkedin.com/in/okikioluwaadabale",
             icon: "fa fa-linkedin",
             label: 'linkedin'
+        },
+        {
+            link: "https://drive.google.com/file/d/1EOHyGQfPk-8xVtW8Z_PXkpyiIHqX8_5r/view?usp=sharing",
+            icon: "fa fa-file-text",
+            label: 'FileText'
         }
-        // {
-        //     link: "https://twitter.com",
-        //     icon: "fa fa-twitter",
-        //     label: 'twitter'
-        // }
+
+
+
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
@@ -96,8 +99,8 @@ export const info = {
             emoji: '📖'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'weight-lifting',
+            emoji: '🏋🏽‍♂️'
         },
         {
             label: 'movies',
@@ -105,7 +108,7 @@ export const info = {
         },
         {
             label: 'cooking',
-            emoji: '🌶'
+            emoji: '🍽'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
@@ -113,16 +116,16 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Maternity Website",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            // live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/Path2Tech/Path2Tech-Capstone-Project.git", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
-        {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
-        },
+        // {
+        //     title: "Project 2",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock2
+        // },
         // {
         //     title: "Project 3",
         //     live: "https://paytonpierce.dev",
