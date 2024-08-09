@@ -6,22 +6,30 @@ footer {
 
 .dark {
   background-color: $dark;
-  color: $white;
+  color: $green;
   transition: all 400ms;
 
-  a, i, li {
-    color: $white;
+  a,li {
+    color: $blue;
     transition: color 400ms;
   }
 
   a:visited {
-    color: $white;
+    color: $green;
   }
 
   footer {
     color: $white;
   }
+
+  img {
+    border-width: 0.5px;
+    border-color: green;
+    border-style: dotted;
+    
+  }
 }
+
 
 .light {
   background-color: $pink;
