@@ -47,10 +47,10 @@ export default function BaseLayout() {
                {singlePage ? <SinglePageRoutes refs={{refHome, refAbout, refPortfolio}}/> : <MultiPageRoutes />}
             </Grid>
             <Grid item>
-               <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
+               <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'} 
                   py={'1.5rem'} sx={{ opacity: 0.7 }} width={'100%'}>
                   <p>template created with &hearts; by <a href={'https://paytonpierce.dev'}>Payton Pierce</a></p>
-                  
+                 
                </Box>
             </Grid>
          </Grid>
