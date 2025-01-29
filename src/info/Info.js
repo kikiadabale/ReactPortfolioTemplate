@@ -120,12 +120,12 @@ export const info = {
             source: "https://github.com/Path2Tech/Path2Tech-Capstone-Project.git", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
-        // {
-        //     title: "Project 2",
-        //     live: "https://paytonpierce.dev",
-        //     source: "https://github.com/paytonjewell",
-        //     image: mock2
-        // },
+        {
+            title: "Tableau",
+            // live: "https://paytonpierce.dev",
+            source: "https://public.tableau.com/app/profile/okikioluwa.adabale",
+            image: mock2
+        },
         // {
         //     title: "Project 3",
         //     live: "https://paytonpierce.dev",
