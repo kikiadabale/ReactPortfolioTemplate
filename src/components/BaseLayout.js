@@ -7,6 +7,8 @@ import MultiPageRoutes from './MultiPageRoutes';
 import { singlePage } from '../info/Info';
 import SinglePageRoutes from './SinglePageRoutes';
 import useScrollObserver from '../hooks/useScrollObserver';
+import cursor from '../img/cursor.png';
+
 
 export default function BaseLayout() {
    const location = useLocation()
@@ -16,6 +18,7 @@ export default function BaseLayout() {
    const refAbout = useScrollObserver(setActive);
    const refPortfolio = useScrollObserver(setActive);
    let [darkMode, setDarkMode] = useState(false);
+  
 
 
 
